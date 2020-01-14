@@ -1,4 +1,4 @@
-FROM choasia/gradle-node-webapp-image:1.0
+FROM choasia/gradle-node-webapp-image:gradle-5.6.4
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt update -y && apt install -y awscli
